@@ -15,8 +15,8 @@ body {font-family: Verdana,sans-serif;margin:0}
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
   padding: 16px;
+  margin-top: -22px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -75,18 +75,21 @@ body {font-family: Verdana,sans-serif;margin:0}
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
-  -moz-animation-name: fade;
-  -moz-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }
