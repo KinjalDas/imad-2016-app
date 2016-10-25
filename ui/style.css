@@ -1,3 +1,9 @@
+.a{
+ font-family:sans-serif;	
+ background-color: lightgrey;	
+ margin-top:75px;		
+}
+
 .carousel-inner > .item > a > img {
       width: 70%;
       margin: 0 auto;
