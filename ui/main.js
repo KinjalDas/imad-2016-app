@@ -12,7 +12,7 @@ document.getElementById("navMenu").innerHTML =
                 '<li><a href="contact_us">CONTACT ME</a></li>'+
                 '<li class="dropdown">'+ 
                     '<a href="#" class="dropdown-toggle" data-toggle="dropdown">'+ 
-                    'LOGIN/REGISTER <b class="caret"></b>'+
+                    'MEMBERS&#39 AREA <b class="caret"></b>'+
                     '</a>'+ 
                     '<ul class="dropdown-menu">'+ 
                     '<li><a href="members_area">LOGIN</a></li>'+ 
@@ -32,3 +32,12 @@ document.getElementById("navMenu").innerHTML =
             '</ul>'+ 
         '</div>'+
     '</nav>'; 
+	
+
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+
+	
